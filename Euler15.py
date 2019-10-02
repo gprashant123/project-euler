@@ -1,7 +1,8 @@
 stored={}
 def rec(m,n):
     """
-    returns the total number of possible paths in an mxn grid
+    Returns the total number of possible paths in an mxn grid
+    The concept of Dynamic programming is used here
     """
     try:
         return stored[(m,n)]
