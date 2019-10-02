@@ -17,6 +17,9 @@ A=[[75],
 
 max_count=0
 def brute_search(X):
+    """
+    Returns the maximum total from top to bottom of the triangle A
+    """
     if len(X)==2:
         return X[0][0]+max(X[1])
     else:
