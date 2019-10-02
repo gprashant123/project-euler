@@ -1,5 +1,8 @@
 stored={}
 def rec(m,n):
+    """
+    returns the total number of possible paths in an mxn grid
+    """
     try:
         return stored[(m,n)]
     except:
