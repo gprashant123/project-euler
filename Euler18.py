@@ -1,4 +1,4 @@
-Initializing triangle
+#Initializing triangle
 A=[[75],
 [95, 64],
 [17, 47, 82],
